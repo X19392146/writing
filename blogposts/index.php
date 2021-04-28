@@ -21,12 +21,12 @@
 <body>
 
 <ul>
-		<li><a href="pages/about.html">&nbsp; About Us &nbsp; </a></li>
-		<li><a href="pages/topics.html">&nbsp; Topics &nbsp;</a></li>
-		<li style="float:right"><a class="active" href="pages/contact.html">Contact Us</a></li>
-		<li style="float:right"><a class="active" href="pages/login.html">Sign Up/Login</a></li>
+		<li><a href="http://blogss.gearhostpreview.com/pages/about.html">&nbsp; About Us &nbsp; </a></li>
+		<li><a href="http://blogss.gearhostpreview.com/pages/topics.html">&nbsp; Topics &nbsp;</a></li>
+		<li style="float:right"><a class="active" href="http://blogss.gearhostpreview.com/pages/contact.html">Contact Us</a></li>
+		<li style="float:right"><a class="active" href="https://registration-pages.herokuapp.com/index.php">Sign Up/Login</a></li>
 		<!--logo/homepage link-->
-<h1> <a  href="index.html"> <img src="S&S Blogs Logo.jpg" alt="Home" width="150" height="150";></a></h1>
+<h1> <a  href="http://blogss.gearhostpreview.com/index.html"> <img src="S&S Blogs Logo.jpg" alt="Home" width="150" height="150";></a></h1>
 </ul>
 
     <div class="container mt-5">
