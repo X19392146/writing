@@ -6,7 +6,7 @@
  
 
     // Initialize a database connection
-    $conn = mysqli_connect("localhost", "root", "", "blog");
+    $conn = mysqli_connect("eu-cdbr-west-01.cleardb.com", "b2680a39c3e361", "b403c2b9", "heroku_e32aaf0c929f888");
 
  
     // Destroy if not possible to create a connection
