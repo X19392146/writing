@@ -7,12 +7,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="css/writing.css"  />
+	
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 
     <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/writing.css" >
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>S&S Blogs</title>
@@ -41,14 +42,14 @@
 
         <!-- Create a new Post button -->
         <div class="text-center">
-            <a href="create.php" class="btn btn-outline-dark">+ Create a new post</a>
+            <a href="create.php" class="btn btn-outline-dark" style="background-color:#B9D8D2">+ Create a new post</a>
         </div>
 
         <!-- Display posts from database -->
         <div class="row">
             
                 <div class="col-12 col-lg-4 d-flex justify-content-center">
-                    <div class="card text-white bg-dark mt-5" style="width: 18rem;">
+                    <div class="card text-white btn btn-outline-dark mt-5" style="width: 18rem; background-color:#B9D8D2">
                         <div class="card-body">
                             <h5 class="card-title"><?php echo $q['title'];?></h5>
                             <p class="card-text"><?php echo substr($q['content'], 0, 50);?>...</p>
